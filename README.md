@@ -5,7 +5,11 @@ A serverless notification API is a serverless application that uses AWS Lambda a
    - [Granting SNS Access](#granting-sns-access-to-the-lambda-function)
 - [Test Post Endpoint](#test-post-endpoint)
 
-The API works by first creating a Lambda function that accepts POST requests with a name and message. The Lambda function then publishes an SNS message with the name and message to a topic. The SNS topic is configured to send email notifications to subscribers.
+As we already mentioned. The API operates by initially generating a Lambda function capable of accepting incoming POST requests containing a specified name and accompanying message. 
+
+Subsequently, this Lambda function triggers the transmission of an SNS message, encompassing both the provided name and message, to an assigned topic. 
+
+It's worth highlighting that the configuration of the SNS topic is optimized for dispatching email notifications to its group of subscribers.
 
 ![Notification API Diagram](https://raw.githubusercontent.com/yaya2devops/aws-cloud-project-bootcamp/main/journal/assets/week0/assets/notification-api.png)
 
