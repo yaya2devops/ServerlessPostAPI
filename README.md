@@ -1,5 +1,3 @@
-# Serverless Notification API
-
 A serverless notification API is a serverless application that uses AWS Lambda and Amazon SNS to send email notifications to subscribers.
 
 - [Setting up Post Notification](#setting-up-post-notification)
@@ -55,7 +53,7 @@ aws sns subscribe \
 --notification-endpoint <email>
 ```
 
-3. Confirm your subscription to the topic.
+- Confirm your subscription to the topic.
 
 ![Confirm seconds later](https://raw.githubusercontent.com/yaya2devops/aws-cloud-project-bootcamp/main/journal/assets/week0/postapi/postapi-confirm.png)
 
@@ -89,8 +87,8 @@ def lambda_handler(event, context):
       'body': json.dumps(response)
    }
 ```
-4. Assign the sns arn.
-5. Deploy the Lambda function.
+- Assign the sns arn.
+- Deploy the Lambda function.
 
 ### **Granting SNS Access to the Lambda Function**
 
@@ -153,5 +151,12 @@ Replace `https://yours.lambda-url.<region>.on.aws/` with the actual Lambda funct
 
 ![Thunder Client Vs Code Extension](https://raw.githubusercontent.com/yaya2devops/aws-cloud-project-bootcamp/main/journal/assets/week0/postapi/postapi-poc.png)
 
-4.  Check your subscribed email for the post notif.
+- Finally, check your subscribed email for the post notif.
 ![Post API Email](https://raw.githubusercontent.com/yaya2devops/aws-cloud-project-bootcamp/main/journal/assets/week0/postapi/postapi-email.png)
+
+
+### Conclude
+
+By carefully following the outlined steps, you'll be well-equipped to establish a robust and functional serverless notification API using AWS Lambda and Amazon SNS.
+
+Your thorough understanding of this process will serve as a solid foundation for further AWS serverless endeavors!
