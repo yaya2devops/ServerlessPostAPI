@@ -149,8 +149,9 @@ curl --request POST \
 ```
 Replace `https://yours.lambda-url.<region>.on.aws/` with the actual Lambda function URL.
 
-3. Check your API tool returning 200 OK on success.
+3. Check that your API tool is correctly returning a status code of 200 OK upon successful operations.
+
 ![Thunder Client Vs Code Extension](https://raw.githubusercontent.com/yaya2devops/aws-cloud-project-bootcamp/main/journal/assets/week0/postapi/postapi-poc.png)
 
-4. Check your subscribed email for the post notif.
+4.  Check your subscribed email for the post notif.
 ![Post API Email](https://raw.githubusercontent.com/yaya2devops/aws-cloud-project-bootcamp/main/journal/assets/week0/postapi/postapi-email.png)
