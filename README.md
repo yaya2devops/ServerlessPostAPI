@@ -156,7 +156,7 @@ Replace `https://yours.lambda-url.<region>.on.aws/` with the actual Lambda funct
 ![Thunder Client Vs Code Extension](https://raw.githubusercontent.com/yaya2devops/aws-cloud-project-bootcamp/main/journal/assets/week0/postapi/postapi-poc.png)
 
 - Finally, check your subscribed email for the post notif.
-![Post API Email](https://raw.githubusercontent.com/yaya2devops/aws-cloud-project-bootcamp/main/journal/assets/week0/postapi/postapi-email.png)
+![Got To Redact All From Now On](postapi-email-redacted.png)
 
 
 ### Conclude
