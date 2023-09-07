@@ -16,7 +16,7 @@ It's worth highlighting that the configuration of the SNS topic is optimized for
 Here is a comprehensive and detailed representation that **I have prepared** for your reference.
 * An API receives a POST request with a JSON payload containing a `name` and `message`.
 * The Lambda function processes the request and extracts the `name` and `message` from the payload.
-```yaml
+```
        API Request (POST)       Lambda Function      SNS Topic             Email Subscribers
       +------------------>   +----------------->  +-------------------->  +-----------------+ 
   H   |                      |                    |                    |  | List of EMAILs; | Y
@@ -163,4 +163,4 @@ Replace `https://yours.lambda-url.<region>.on.aws/` with the actual Lambda funct
 
 By carefully following the outlined steps, you'll be well-equipped to establish a robust and functional serverless notification API using AWS Lambda and Amazon SNS.
 
-Your thorough understanding of this process will serve as a solid foundation for further AWS serverless endeavors!
+Your thorough understanding of this process will serve as a great deal going forward (Remmember that!)<br> Since you've made it this far, allow me to [design a path for you.](https://developer.twitter.com/en/docs/twitter-api/getting-started/make-your-first-request)
