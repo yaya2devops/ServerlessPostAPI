@@ -163,4 +163,7 @@ Replace `https://yours.lambda-url.<region>.on.aws/` with the actual Lambda funct
 
 By carefully following the outlined steps, you'll be well-equipped to establish a robust and functional serverless notification API using AWS Lambda and Amazon SNS.
 
-Your thorough understanding of this process will serve as a great deal going forward (Remmember that!)<br> Since you've made it this far, allow me to [design a path for you.](https://developer.twitter.com/en/docs/twitter-api/getting-started/make-your-first-request)
+Your thorough understanding of this process will serve as a great deal going forward (Remmember that!)
+
+Since you've made it this far, allow me to [design a path for you.](https://developer.twitter.com/en/docs/twitter-api/getting-started/make-your-first-request)
+
