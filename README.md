@@ -2,7 +2,7 @@ A serverless notification API is a serverless application that uses AWS Lambda a
 
 - [Setting up Post Notification](#setting-up-post-notification)
 - [Create Lambda](#create-lambda)
-   - [Granting SNS Access](#granting-sns-access-to-the-lambda-function)
+- [Granting SNS Access](#granting-sns-access-to-the-lambda-function)
 - [Test Post Endpoint](#test-post-endpoint)
 
 As we already mentioned. The API operates by initially generating a Lambda function capable of accepting incoming POST requests containing a specified name and accompanying message. 
